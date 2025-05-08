@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dmitr\\Leetcode\\TestProject1\\Algorithm.csproj": {}
+    "C:\\Users\\Dmytro.Dmytriiev\\sources\\repos\\Leetcode\\Algorithm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dmitr\\Leetcode\\TestProject1\\Algorithm.csproj": {
+    "C:\\Users\\Dmytro.Dmytriiev\\sources\\repos\\Leetcode\\Algorithm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmitr\\Leetcode\\TestProject1\\Algorithm.csproj",
+        "projectUniqueName": "C:\\Users\\Dmytro.Dmytriiev\\sources\\repos\\Leetcode\\Algorithm.csproj",
         "projectName": "Algorithm",
-        "projectPath": "C:\\Users\\dmitr\\Leetcode\\TestProject1\\Algorithm.csproj",
-        "packagesPath": "C:\\Users\\dmitr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmitr\\Leetcode\\TestProject1\\obj\\",
+        "projectPath": "C:\\Users\\Dmytro.Dmytriiev\\sources\\repos\\Leetcode\\Algorithm.csproj",
+        "packagesPath": "C:\\Users\\Dmytro.Dmytriiev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dmytro.Dmytriiev\\sources\\repos\\Leetcode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dmitr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Dmytro.Dmytriiev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -36,7 +37,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -81,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Dmytro.Dmytriiev\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
