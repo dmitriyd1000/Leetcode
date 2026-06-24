@@ -1,10 +1,8 @@
-using NUnit.Framework;
-
-namespace Algorithm;
+namespace Algorithm.MinDifference;
 
 public class MinDifference
 {
-    public static void FindMinDifferencePartition(int[] nums)
+    public void FindMinDifferencePartition(int[] nums)
     {
         int sum = nums.Sum();
         int halfSum = sum / 2;
@@ -51,20 +49,5 @@ public class MinDifference
 
         Console.WriteLine("Первое подмножество: " + string.Join(", ", subset1));
         Console.WriteLine("Второе подмножество: " + string.Join(", ", subset2));
-    }
-
-    [SetUp]
-    public void Setup()
-    {
-    }
-
-    [Test]
-    public void TestFindMinDifference()
-    {
-        var aa = new List<int> { 3, 7, 5, 6, 2 };
-        aa.Sort();
-        var bb = aa.ToArray();
-        FindMinDifferencePartition(bb);
-        Assert.Pass();
     }
 }
